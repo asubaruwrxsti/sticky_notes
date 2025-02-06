@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sticky Notes</title>
+    <style>
+        .note-input {
+            width: 300px;
+            height: 100px;
+        }
+
+        .note-list {
+            margin-top: 20px;
+        }
+
+        .note {
+            padding: 10px;
+            margin: 5px;
+            background: #ffffa5;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea class="note-input" placeholder="Enter note..."></textarea>
+    <button onclick="addNote()">Add Note</button>
+    <div class="note-list"></div>
+    <script src="renderer.js" type="module"></script>
+</body>
+
+</html>
